@@ -1,28 +1,11 @@
-
-*{
-
+div {
+  text-align: center;
 }
-body{
-  display: grid;
+.red {
+  color: red;
 }
-
-
-.red-square{
-justify-content: center;
-color: red;
-grid-template-columns: 1fr;
-grid-template-rows:1fr;
+.pink {
+  color: pink;
 }
-
-.blue-square{
-  justify-content: center;
-  color: blue;
-  grid-template-columns: 1fr;
-  grid-template-rows:1fr;
-}
-.green-square{
-  justify-content: center;
+.green {
   color: green;
-  grid-template-columns: 1fr;
-  grid-template-rows:1fr;
-}

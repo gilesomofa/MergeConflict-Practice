@@ -1,0 +1,28 @@
+
+*{
+
+}
+body{
+  display: grid;
+}
+
+
+.red-square{
+justify-content: center;
+color: red;
+grid-template-columns: 1fr;
+grid-template-rows:1fr;
+}
+
+.blue-square{
+  justify-content: center;
+  color: blue;
+  grid-template-columns: 1fr;
+  grid-template-rows:1fr;
+}
+.green-square{
+  justify-content: center;
+  color: green;
+  grid-template-columns: 1fr;
+  grid-template-rows:1fr;
+}
